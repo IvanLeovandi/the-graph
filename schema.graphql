@@ -1,0 +1,10 @@
+type Listing @entity(immutable: false) {
+  id: ID!
+  listingId: BigInt!
+  seller: Bytes!
+  nftContract: Bytes!
+  tokenId: BigInt!
+  price: BigInt!
+  isActive: Boolean!
+  createdAt: BigInt!
+}
